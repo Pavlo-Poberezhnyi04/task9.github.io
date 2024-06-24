@@ -1,0 +1,252 @@
+:root {
+    --bg-accent: #F9F9F9;
+    --bg-main: #EEEFF1;
+    --color-accent: #34547A;
+    --color-main: #727272;
+    --color-title: #000000;
+    --color-text--btn: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-main);
+    background-color: var(--bg-main);
+    line-height: 1.64;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-title);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.center {
+    padding: 0 calc(50vw - 555px);
+    box-sizing: border-box;
+}
+
+/* btn */
+
+.btn:hover,
+.btn:focus {
+    background: var(--color-text--btn);
+    color: var(--color-accent);
+}
+.nav__link:active {
+    opacity: 0.7;
+}
+.btn {
+    background: var(--color-accent);
+    color: var(--color-text--btn);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 225px;
+    min-height: 65px;
+    width: 0;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* btn */
+
+/* header */
+
+.header {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: var(--bg-main);
+    position: sticky;
+    top: 0;
+}
+
+/* header */
+  
+/* nav */
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 42px;
+}
+
+.nav__link {
+    color: var(--color-title);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    text-decoration: underline;
+}
+.nav__link:active {
+    opacity: 0.7;
+}
+.nav__link--active {
+    color: var(--color-accent);
+    font-weight: 500;
+
+}
+/* nav */
+
+/* offer */
+
+.offer {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.offer__content {
+    max-width: 540px;
+}
+.offer__title {
+    font-size: 48px;
+    margin: 0 0 60px;
+}
+.offer__description {
+    margin: 0 0 60px;
+}
+
+/* offer */
+
+/* about */
+
+.about {
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background-color: var(--color-text--btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about__content {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about__title {
+    font-size: 32px;
+    margin: 0 0 50px;
+}
+.about__description {
+    margin: 0;
+}
+
+/* about */
+
+/* project */
+
+.project {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--color-accent);
+}
+.project__item {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.project__items {
+    display: flex;
+}
+.project__text {
+    margin-left: 20px;
+    margin-right: 45px;
+}
+.project__title {
+    margin: 0px;
+    font-size: 21px;
+    color: var(--color-text--btn);
+}
+.project__description {
+    margin: 0px;
+    color: var(--color-text--btn);
+}
+/* project */
+
+/* work */
+
+.work {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: var(--color-text--btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work__content {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.work__title {
+    font-size: 32px;
+    margin: 0 0 50px;
+}
+.work__description {
+    margin: 0;
+}
+/* work */
+
+/* video */
+
+.video {
+    background-color: var(--color-text--btn);
+    padding-bottom: 100px;
+}
+.video__content {
+    position: relative;
+    display: inline-block;
+}
+
+.video__main {
+    display: block;
+}
+
+.video__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; 
+}
+
+
+/* video */
+
+/* footer */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--color-accent);
+    color: var(--color-text--btn);
+}
+.footer__name {
+    color: var(--color-text--btn);
+    margin: 0 0 20px;
+    font-size: 21px;
+}
+.footer__copyright {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* footer */
