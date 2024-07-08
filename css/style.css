@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* btn */
 
 .btn:hover,
@@ -228,7 +232,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%);
     pointer-events: none; 
 }
-
 
 /* video */
 
