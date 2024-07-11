@@ -1,0 +1,109 @@
+@import "common/normalize";
+@import "common/variables";
+
+@import "common/globals";
+@import "common/btn";
+@import "common/header";
+@import "common/nav";
+@import "common/footer";
+
+@import "index/offer";
+@import "index/about";
+@import "index/project";
+@import "index/work";
+@import "index/video";
+
+
+// @media screen and (max-width: 1250px) {
+//     .center {
+//         padding-left: calc(50vw - 450px);
+//         padding-right: calc(50vw - 450px);
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(3, 1fr); 
+//     }
+// }
+
+// @media screen and (max-width: 950px) {
+//     .center {
+//         padding-left: calc(50vw - 350px);
+//         padding-right: calc(50vw - 350px);
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(3, 1fr); 
+//     }
+//     .nav__item {
+//         font-size: 19px;    
+//     }
+// }
+
+// @media screen and (max-width: 800px) {
+//     .center {
+//         padding-left: calc(50vw - 300px);
+//         padding-right: calc(50vw - 300px);
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(2, 1fr); 
+//     }
+//     .nav__list {
+//         font-size: 10px; 
+//         flex-wrap: wrap;
+//     }
+// }
+
+// @media screen and (max-width: 650px) {
+//     .center {
+//         padding-left: calc(50vw - 250px);
+//         padding-right: calc(50vw - 250px);
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(2, 1fr); 
+//     }
+//     .nav__list {
+//         font-size: 19px; 
+//         flex-wrap: wrap;
+//     }
+//     .header {
+//         position: relative;
+//     }
+// }
+
+// @media screen and (max-width: 500px) {
+//     .center {
+//         padding-left: calc(50vw - 200px);
+//         padding-right: calc(50vw - 200px);
+//     }
+//     h1, h2, h3, h4, h5, h6 {
+//         font-size: 19;
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(2, 1fr); 
+//     }
+//     .nav__list {
+//         font-size: 10px; 
+//         flex-wrap: wrap;
+//     }
+//     .footer {
+//         padding-left: 20px;
+//     }
+// }
+
+// @media screen and (max-width: 400px) {
+//     .center {
+//         padding-left: calc(50vw - 150px);
+//         padding-right: calc(50vw - 150px);
+//     }
+//     h1, h2, h3, h4, h5, h6 {
+//         font-size: 19;
+//     }
+//     .project__content {
+//         grid-template-columns: repeat(2, 1fr); 
+//     }
+//     .nav__list {
+//         font-size: 10px; 
+//         flex-wrap: wrap;
+//     }
+//     .footer {
+//         padding-left: 20px;
+//     }
+// }
