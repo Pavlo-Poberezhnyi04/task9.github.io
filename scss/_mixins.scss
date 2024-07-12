@@ -1,0 +1,4 @@
+@mixin btn-color($bg-main, $color-text-btn) {
+    background: $color-accent;
+    color: $color-text-btn;
+  }

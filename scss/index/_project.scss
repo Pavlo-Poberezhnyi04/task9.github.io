@@ -1,7 +1,7 @@
 .project {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--color-accent);
+    background-color: $color-accent;
     box-sizing: border-box;
 
     &__content {
@@ -47,7 +47,6 @@
         width: 100%;
         box-sizing: border-box;
         padding: 10px;
-        background-color: var(--color-background); 
     }
     
     &__text {
@@ -58,12 +57,12 @@
     &__title {
         margin: 0;
         font-size: 21px;
-        color: var(--color-text--btn);
+        color: $color-text-btn;
     }
     
     &__description {
         margin: 0;
-        color: var(--color-text--btn);
+        color: $color-text-btn;
     }
     
     &__img img {
